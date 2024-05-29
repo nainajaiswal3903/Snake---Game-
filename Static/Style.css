@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #636750; /* Change the outer background color */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #3ccc0b;
+}
+
+#controls {
+    margin: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+canvas {
+    border: 1px solid #fff; /* White border for the canvas */
+    background-color: #000; /* Set canvas background color to black */
+}
+
+#score {
+    margin-top: 10px;
+}
