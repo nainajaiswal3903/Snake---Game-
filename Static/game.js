@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
     const ctx = canvas.getContext('2d');
     const grid = 16;
 
-    canvas.width = 640;
-    canvas.height = 640;
+    canvas.width = 500;
+    canvas.height = 500;
 
     let count = 0;
     let speed = 4;
